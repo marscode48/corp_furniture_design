@@ -168,8 +168,43 @@ li {
 }
 
 /*-------------------------------------------
-メイン
+Top、Products
 -------------------------------------------*/
+.main #top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.main__product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__product-list li {
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.main__product-list li img {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.main__product-list li p {
+  font-size: 0.75rem;
+}
+
+.main__btn {
+  display: block;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 

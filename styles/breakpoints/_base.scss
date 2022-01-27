@@ -193,36 +193,53 @@ li {
 }
 
 /*-------------------------------------------
-メイン
+Top、Products
 -------------------------------------------*/
-// .main {
+.main {
 
-//   #top {
-//     padding-top: 80px;
-//     padding-bottom: 160px;
-//   }
+  #top {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
 
-//   &__product-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
+  &__product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
-//     & li {
-//       width: 23%;
-//       margin-bottom: 40px;
+    & li {
+      width: 23%;
+      margin-bottom: 40px;
 
-//       a {
-//         display: block;
-//       }
+      & img {
+        margin-bottom: 10px;
+        vertical-align: top;
+      }
       
-//       & p {
-//         margin-top: 10px;
-//         font-size: 0.75rem;
+      & p {
+        font-size: 0.75rem;
+      }
+    }
+  }
 
-//         &:last-child {
-//           margin-top: 0;
-//         }
-//       }
+  &__btn {
+    display: block;
+    text-align: center;
+  }
+}
+
+// /*-------------------------------------------
+// フッター
+// -------------------------------------------*/
+// .footer {
+//   display: flex;
+//   justify-content: space-between;
+
+//   &__menu {
+//     display: flex;
+
+//     & li {
+//       margin-right: 30px;
 //     }
 //   }
 // }
