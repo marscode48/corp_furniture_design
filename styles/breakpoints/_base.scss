@@ -39,12 +39,18 @@ li {
   padding: 0 40px;
 }
 .content {
-  padding: 120px 0 160px;
+  padding-top: 120px;
+  padding-bottom: 160px;
 }
 .site-title a {
   line-height: 1px;
   width: 180px;
   display: block;
+}
+.page-title {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 // .font-sm {
 //   font-size: 14px;
@@ -193,7 +199,7 @@ li {
 }
 
 /*-------------------------------------------
-Top、Products
+TOP、PRODUCTS
 -------------------------------------------*/
 .main {
 
@@ -226,7 +232,17 @@ Top、Products
     display: block;
     text-align: center;
   }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+
+    & li {
+      padding: 0 20px;
+    }
+  }
 }
+
 
 /*-------------------------------------------
 フッター
