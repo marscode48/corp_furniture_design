@@ -228,18 +228,27 @@ Top、Products
   }
 }
 
-// /*-------------------------------------------
-// フッター
-// -------------------------------------------*/
-// .footer {
-//   display: flex;
-//   justify-content: space-between;
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 
-//   &__menu {
-//     display: flex;
+  &__menu {
+    display: flex;
 
-//     & li {
-//       margin-right: 30px;
-//     }
-//   }
-// }
+    & li {
+      font-size: 0.75rem;
+      margin-right: 30px;
+    }
+  }
+
+  &__copyright {
+    font-size: 0.625rem;
+  }
+}
