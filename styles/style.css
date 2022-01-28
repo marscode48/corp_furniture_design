@@ -226,6 +226,49 @@ TOP、PRODUCTS
 }
 
 /*-------------------------------------------
+ITEM
+-------------------------------------------*/
+.main__item {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.main__img {
+  width: 50%;
+}
+
+.main__text {
+  width: 42%;
+}
+
+.main__text p {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.main__item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__item-info dt {
+  width: 30%;
+}
+
+.main__item-info dd {
+  width: 70%;
+}
+
+/*-------------------------------------------
 フッター
 -------------------------------------------*/
 .footer {

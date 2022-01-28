@@ -243,7 +243,45 @@ TOP、PRODUCTS
   }
 }
 
+/*-------------------------------------------
+ITEM
+-------------------------------------------*/
+.main {
 
+  &__item {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__text {
+    width: 42%;
+
+    & p {
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  }
+
+  &__item-info {
+    display: flex;
+    flex-wrap: wrap;
+
+    & dt {
+      width: 30%;
+    }
+    
+    & dd {
+      width: 70%;
+    }
+  }
+
+}
 
 /*-------------------------------------------
 フッター
