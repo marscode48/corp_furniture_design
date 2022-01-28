@@ -10,3 +10,19 @@
   .main__product-list li {
     width: 47%;
   }
+
+  /*-------------------------------------------
+  ITEM
+  -------------------------------------------*/
+  .main__item {
+    flex-direction: column;
+  }
+
+  .main__img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main__text {
+    width: 100%;
+  }

@@ -311,5 +311,21 @@ ITEM
   .main__product-list li {
     width: 47%;
   }
+  /*-------------------------------------------
+  ITEM
+  -------------------------------------------*/
+  .main__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main__text {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
