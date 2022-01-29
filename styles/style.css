@@ -386,5 +386,23 @@ COMPANY
   .main__text {
     width: 100%;
   }
+  /*-------------------------------------------
+  COMPANY
+  -------------------------------------------*/
+  .main__company-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__company-info dt {
+    width: 100%;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .main__company-info dd {
+    width: 100%;
+    padding-top: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

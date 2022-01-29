@@ -26,3 +26,21 @@
   .main__text {
     width: 100%;
   }
+  /*-------------------------------------------
+  COMPANY
+  -------------------------------------------*/
+  .main__company-info {
+    flex-direction: column;
+    
+    & dt {
+      width: 100%;
+      border: none;
+      padding-bottom: 5px;
+    }
+  
+    & dd {
+      width: 100%;
+      padding-top: 5px;
+    }
+  }
+  
